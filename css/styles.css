@@ -25,11 +25,7 @@ body {
   font-size: 2rem;
 }
 
-.navegacion-principal {
-  padding-top: 1rem;
-  display: flex;
-  justify-content: flex-end;
-}
+
 .navegacion-principal a {
   color: var(--blanco);
   text-decoration: none;
@@ -38,9 +34,7 @@ body {
   width: 120rem;
   margin: 0 auto;
 }
-.nav-bg {
-  background-color: var(--secundario);
-}
+
 
 @media (min-width: 768px) {
   .barra {
@@ -48,14 +42,17 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: var(--secundario);
+    padding: 0;
   }
 }
 
 .logo {
   color: var(--blanco);
+  text-decoration: none;
+  padding-left: 1rem;
 }
 .logo__nombre {
-  font-weight: 700;
+  font-weight: 900;
 }
 .logo__bold {
   font-weight: 200;
@@ -64,7 +61,8 @@ body {
 @media (min-width: 768px) {
   .navegacion {
     display: flex;
-    gap: 2rem;
+    gap: 6rem;
+    
   }
 }
 
@@ -73,4 +71,11 @@ body {
   text-align: center;
   font-size: 1.8rem;
   color: var(--blanco);
+  text-decoration: none;
+  padding: 1rem;
+
+}
+.navegacion__enlace:hover{
+  background-color: var(--primario);
+  color: var(--oscuro);
 }
