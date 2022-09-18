@@ -216,17 +216,3 @@ h3 {
   margin-bottom: 2rem;
 }
 
-.contenedor-campos{
-
-}
-.campos{
- margin-bottom: 1rem;
-}
-
-.campos label{
-  color: var(--blanco);
-  font-weight: bold;
-  margin-bottom: .5rem;
-  display: block;
-
-}

@@ -1,6 +1,6 @@
 function convertir() {
     var valor = parseFloat(document.getElementById("cantidad").value);
-    document.getElementById("valor").innerHTML = "<b>" + valor + "</b>";
+    
 
     var de = document.getElementById("De").value;
     var a = document.getElementById("A").value;
