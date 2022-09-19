@@ -143,7 +143,7 @@
         <!--Este es el cierre de la clase de servicios-->
 
         <section>
-            <h2>conversor de divisas</h2>
+            <h2>Conversor de Divisas</h2>
 
             <form class="formulario">
                 <fieldset>
@@ -152,21 +152,22 @@
 
                     <center>
 
-                        Cantidad: <input type="number" id="cantidad" min="0" max="10000" value="0"
+                       <h2 class="cambio">Cantidad:</h2>  
+                       <input type="number" id="cantidad" min="0" max="10000" value="0"
                             onchange="convertir()">
 
-                        <br><br> Convertir De:
+                       <h3 class="cambio">Convertir De:</h3> 
                         <select id="De" onchange="convertir()">
                             <option value="1 ">Boliviano</option>
                             <option value="2 ">Dolar</option>
                             <option value="3 ">Euro</option>
-                        </select><br><br> Convertir A:
+                        </select> <h3 class="cambio">Convertir A:</h3>
                         <select id="A" onchange="convertir()">
                             <option value=" 1 ">Boliviano</option>
                             <option value="2 ">Dolar</option>
                             <option value="3 ">Euro</option>
                         </select>
-                        <h2 id="resultado">Resultado: $0,00</h2>
+                        <h2 class="cambio" id="resultado">Resultado: $0,00</h2>
                     </center>
 
 
