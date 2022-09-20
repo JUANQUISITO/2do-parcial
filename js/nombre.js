@@ -1,4 +1,5 @@
 function captura(){
     var nombre =window.prompt ("Ingresa tu nombre");
-        document.write ("hola"+ nombre);
+    document.querySelector("#saludo").innerHTML = "Bienvenido" +" "+ nombre;
+    
 }

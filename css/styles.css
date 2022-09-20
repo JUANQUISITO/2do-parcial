@@ -260,3 +260,9 @@ h3 {
 .pie{
   display: flex;
 }
+
+.sal {
+  color: var(--secundario);
+  font-size: 3rem;
+  text-transform: uppercase;
+}
