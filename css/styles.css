@@ -61,7 +61,7 @@ h3 {
   }
 }
 
-.boton:hover{
+.boton:hover {
   cursor: pointer;
 }
 
@@ -74,32 +74,28 @@ h3 {
   border-radius: 1rem;
 }
 
-
 /*Titulos*/
 .titulo span {
   font-size: 2rem;
 }
 
-
 /*Utilidades*/
-.w-ms-100{
+.w-ms-100 {
   width: 100%;
 }
 
-@media (min-width:768px) {
-  .w-ms-100{
-    width:auto;
+@media (min-width: 768px) {
+  .w-ms-100 {
+    width: auto;
   }
-    
 }
 
-.flex{
+.flex {
   display: flex;
 }
-.alinear-derecha{
+.alinear-derecha {
   justify-content: flex-end;
 }
-
 
 /*Navegacion Principal*/
 
@@ -227,7 +223,7 @@ h3 {
 /*Conversor de divisas*/
 .formulario {
   background-color: var(--gris);
-  width: min(60rem,100%);
+  width: min(60rem, 100%);
   margin: 0 auto;
   padding: 2rem;
   border-radius: 1rem;
@@ -237,7 +233,7 @@ h3 {
   border: none;
 }
 
-.formulario legend{
+.formulario legend {
   color: var(--primario);
   text-align: center;
   font-size: 1.8rem;
@@ -246,23 +242,32 @@ h3 {
   margin-bottom: 2rem;
 }
 
-
-.enviar .boton{
+.enviar .boton {
   width: 100%;
-
 }
 
-.cambio{
-  
+.cambio {
   color: var(--blanco);
-}
-
-.pie{
-  display: flex;
 }
 
 .sal {
   color: var(--secundario);
   font-size: 3rem;
   text-transform: uppercase;
+}
+
+/** aca el footer**/
+
+.pie {
+  display: grid;
+  
+  color: var(--oscuro);
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 15rem;
+  text-align: center;
+}
+
+.redes-sociales{
+  display: flex;
+  flex-direction: column;
 }
