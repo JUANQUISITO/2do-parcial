@@ -259,9 +259,12 @@ h3 {
 /** aca el footer**/
 
 .pie {
+  margin-top: 2rem;
   display: grid;
+  background-color: var(--secundario);
+  padding-left: 2rem;
   
-  color: var(--oscuro);
+  color: var(--blanco);
   grid-template-columns: repeat(4, 1fr);
   column-gap: 15rem;
   text-align: left;
@@ -270,4 +273,5 @@ h3 {
 .redes-sociales{
   display: flex;
   flex-direction: column;
+  color: var(--blanco);
 }
