@@ -264,7 +264,7 @@ h3 {
   color: var(--oscuro);
   grid-template-columns: repeat(4, 1fr);
   column-gap: 15rem;
-  text-align: center;
+  text-align: left;
 }
 
 .redes-sociales{
